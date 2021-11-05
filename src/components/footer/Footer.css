@@ -1,0 +1,13 @@
+.main_footer_div{
+background-color:rgb(221, 243, 243);
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+.footer_span{
+	font-size: 22px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 20px;
+
+}

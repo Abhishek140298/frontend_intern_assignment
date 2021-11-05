@@ -6,7 +6,8 @@ import {
   BsHouseDoorFill,
   BsFileEarmarkPost,
 } from 'react-icons/bs';
-import {Navigate} from 'react-router-dom'
+import {Navigate} from 'react-router-dom';
+import './Header.css'
 const Header = () => {
   const [redirect,setRedirect]=useState(false);
   function backToLogin(){

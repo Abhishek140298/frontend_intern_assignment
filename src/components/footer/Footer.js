@@ -5,16 +5,17 @@ import {
   BsGeoAltFill,
   BsFacebook,
 } from 'react-icons/bs';
+import './Footer.css'
 const Footer = () => {
   return (
     <div className='main_footer_div'>
       <span className='footer_span'>
         <BsTelephoneFill />
-        contact us: 6568787546
+        contact us:<br/> 6568787546
       </span>
       <span className='footer_span'>
         <BsGeoAltFill />
-        address: mukherjiNagar,NewDelhi
+        address: <br/>mukherjiNagar,<br/>NewDelhi
       </span>
       <span className='footer_span'>
         <BsLinkedin />

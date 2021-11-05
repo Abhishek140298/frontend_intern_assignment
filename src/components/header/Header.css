@@ -1,0 +1,25 @@
+.main_header_div{
+background-color: rgb(215, 247, 247);
+display: flex;
+height: 15vh;
+}
+.left_sub_header_div{
+	
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+	
+}
+.header_span{
+	margin-right: 20px;
+	font-size: 25px;
+	color: rgb(63, 62, 62);
+	cursor: pointer;
+}
+.right_sub_div{
+	
+	display: flex;
+	justify-content: end;
+	width: 90%;
+	align-items: center;
+}

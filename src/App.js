@@ -20,7 +20,7 @@ export default class App extends React.Component {
           
           />
           <Route exact path='login' element={<Login/>} />
-          <Route exact path='home' exact  element={<Home/>} />
+          <Route exact path='/home/:userName' element={<Home/>} />
         </Routes>
       </>
     );
